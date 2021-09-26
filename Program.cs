@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace UnlockPattern
 {
@@ -43,11 +43,19 @@ namespace UnlockPattern
             }
 
 
-            x
+            
             /* 
             Sudo Code
 
 
+                Nested loop idea:
+                    For length of d
+	                    # of ways to go left
+	                    loop
+		                    # of ways to go right
+		                    loop
+
+            
             Determining if going right(R) or left(L)
 
             if dir "L"
@@ -79,7 +87,7 @@ namespace UnlockPattern
 
 
 
-            
+
 
         }
     }
